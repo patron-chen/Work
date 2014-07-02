@@ -1,0 +1,20 @@
+﻿Build started 2014/03/13 20:04:52.
+     1>Project "C:\Users\ChenYe\documents\visual studio 2010\Projects\protobuf\protobuf\protobuf.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\protobuf.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\protobuf.unsuccessfulbuild".
+         Touching "Debug\protobuf.lastbuildstate".
+     1>Done Building Project "C:\Users\ChenYe\documents\visual studio 2010\Projects\protobuf\protobuf\protobuf.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.03

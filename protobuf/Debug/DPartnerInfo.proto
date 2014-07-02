@@ -1,0 +1,24 @@
+import "DPartnerSkill.proto";
+
+//榄傚皢淇℃伅
+message DPartnerInfo {
+	optional int64 id = 1;
+	optional int64 humanId = 2;					//鎵€灞炵帺瀹秈d
+	optional int32 sn = 3;						//榄傚皢绫诲瀷
+	optional string name = 4;					//鍚嶇О
+	optional int32 level = 5;					//绛夌骇
+	optional int32 color = 6;					//鍝佽川
+	optional int32 star = 7;					//鏄熺骇
+	optional int32 starExpCur = 8;					//鍗囨槦褰撳墠缁忛獙
+	optional int32 starExpUpgrade = 9;				//鍗囨槦鏈€澶х粡楠?
+	optional int32 starExpAll = 10;					//鍗囨槦鎻愪緵鍚告敹鎬荤粡楠?
+	optional int32 combat = 11;					//鎴樻枟鍔?
+	optional int32 skillNum = 12;					//鎶€鑳芥暟閲?
+	optional bool inFight = 13;					//鏄惁鍑烘垬
+	optional int32 talent = 14;					//榄傚皢澶╄祴绫诲瀷 1锛堥噾锛夛紝2锛堟瘨锛夛紝3锛堝拻锛?
+	repeated DPartnerSkill skillArrange = 15;			//鎶€鑳戒綅缃俊鎭?
+	repeated int32 skill = 16;					//鍙互浣跨敤鐨勪富鍔ㄦ妧鑳絪n闆嗗悎
+	optional int32 skillSn = 17;					//闄勪綋鎶€鑳絪n
+	optional int32 skillLevel = 18;					//闄勪綋鎶€鑳界瓑绾?
+
+}

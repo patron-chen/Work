@@ -1,0 +1,20 @@
+//属性信息
+message DProp {
+	optional int32 str		= 1;		//力量
+	optional int32 dex		= 2;		//敏捷
+	optional int32 con		= 3;		//体力
+	optional int32 inte		= 4;		//智力
+	optional int32 atk		= 5;		//攻击
+	optional int32 def		= 6;		//防御
+	optional int32 hit		= 7;		//命中
+	optional int32 dodge		= 8;		//闪避
+	optional int32 crit		= 9;		//暴击
+	optional int32 tough		= 10;		//坚韧
+	optional float speed		= 11;		//速度
+	optional int32 resDefGold	= 12;		//金抗
+	optional int32 resDefPoison	= 13;		//毒抗
+	optional int32 resDefCurse	= 14;		//咒抗
+	optional int32 hpMax		= 15;		//最大生命
+	optional int32 mpMax		= 16;		//最大法力
+	optional int32 combat		= 17;		//战斗力
+}

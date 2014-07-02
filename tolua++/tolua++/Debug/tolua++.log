@@ -1,0 +1,40 @@
+﻿Build started 2014/03/04 2:26:05.
+     1>Project "c:\Users\ChenYe\documents\visual studio 2010\Projects\tolua++\tolua++\tolua++.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\chenye\documents\visual studio 2010\Projects\tolua++\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\tolua++.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\tolua++-1.0.93\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\tolua++.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\tolua++-1.0.93\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "D:\tolua++-1.0.93\src\lib\tolua_event.c" "D:\tolua++-1.0.93\src\lib\tolua_is.c" "D:\tolua++-1.0.93\src\lib\tolua_map.c" "D:\tolua++-1.0.93\src\lib\tolua_push.c" "D:\tolua++-1.0.93\src\lib\tolua_to.c"
+         tolua_to.c
+         tolua_push.c
+         tolua_map.c
+     1>d:\tolua++-1.0.93\src\lib\tolua_map.c(395): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>d:\tolua++-1.0.93\src\lib\tolua_map.c(398): warning C4090: 'function' : different 'const' qualifiers
+     1>d:\tolua++-1.0.93\src\lib\tolua_map.c(525): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>d:\tolua++-1.0.93\src\lib\tolua_map.c(526): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+         tolua_is.c
+     1>d:\tolua++-1.0.93\src\lib\tolua_is.c(119): warning C4114: same type qualifier used more than once
+         tolua_event.c
+         Generating Code...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"c:\users\chenye\documents\visual studio 2010\Projects\tolua++\Debug\tolua++.lib" /NOLOGO Debug\tolua_event.obj
+         Debug\tolua_is.obj
+         Debug\tolua_map.obj
+         Debug\tolua_push.obj
+         Debug\tolua_to.obj
+         Debug\stdafx.obj
+         tolua++.vcxproj -> c:\users\chenye\documents\visual studio 2010\Projects\tolua++\Debug\tolua++.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\tolua++.unsuccessfulbuild".
+         Touching "Debug\tolua++.lastbuildstate".
+     1>Done Building Project "c:\Users\ChenYe\documents\visual studio 2010\Projects\tolua++\tolua++\tolua++.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.84

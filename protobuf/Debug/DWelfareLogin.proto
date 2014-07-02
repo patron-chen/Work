@@ -1,0 +1,11 @@
+//鐧婚檰濂栧姳淇℃伅
+message DWelfareLogin {
+	optional int32 day = 1;				//浠婂ぉ鏄櫥闄嗙殑绗嚑澶╋紙1-7锛?
+	optional int32 dayUngain = 2;			//鏈鍙栧鍔辩殑澶╂暟锛?-7锛?琛ㄧず浠婂ぉ鐨勫鍔卞凡缁忛鍙栵紝鏈€澶氬瓨涓冨ぉ鐨?
+	optional int32 itemBind = 3;			//鎺ヤ笅鏉ュ鍔辨槸鍚︾粦瀹氱姸鎬?
+	optional int32 itemSn = 4;			//鎺ヤ笅鏉ュ鍔眘n
+	optional int32 itemNum = 5;			//鎺ヤ笅鏉ュ鍔辨暟閲?
+	optional int32 itemBindPaid = 6;		//鎺ヤ笅鏉ュ鍔辨槸鍚︾粦瀹氱姸鎬侊紙鍏呭€肩敤鎴凤紝鏆傛椂杩欎箞鍛藉悕锛屽彲浠ュ洖澶翠慨鏀癸級
+	optional int32 itemSnPaid = 7;			//鎺ヤ笅鏉ュ鍔眘n锛堝厖鍊肩敤鎴凤級
+	optional int32 itemNumPaid = 8;			//鎺ヤ笅鏉ュ鍔辨暟閲忥紙鍏呭€肩敤鎴凤級
+}

@@ -1,0 +1,5 @@
+//娓告垙绯荤粺鍏ㄥ眬淇℃伅
+message DInitDataGame {
+	required int32 timestamp = 1;				//鏈嶅姟鍣ㄦ椂闂?鏃堕棿鎴虫牸寮忥紝绉掔骇)
+	required int64 connSessionKey = 2;			//杩炴帴鍏抽敭瀛?鐢ㄦ潵鍋氭柇绾块噸杩炴満鍒?
+}

@@ -1,0 +1,16 @@
+﻿Build started 2014/03/12 17:42:43.
+     1>Project "C:\Users\ChenYe\documents\visual studio 2010\Projects\pb\pb\pb.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\pb.unsuccessfulbuild".
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Lua\5.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PB_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\..\Desktop\protoc-gen-lua-e32bde08c3e8\protobuf\pb.c"
+         pb.c
+     1>..\..\..\..\..\Desktop\protoc-gen-lua-e32bde08c3e8\protobuf\pb.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>..\..\..\..\..\Desktop\protoc-gen-lua-e32bde08c3e8\protobuf\pb.c(31): error C2059: syntax error : 'string'
+     1>..\..\..\..\..\Desktop\protoc-gen-lua-e32bde08c3e8\protobuf\pb.c(285): warning C4244: 'function' : conversion from 'uint64_t' to 'lua_Integer', possible loss of data
+     1>..\..\..\..\..\Desktop\protoc-gen-lua-e32bde08c3e8\protobuf\pb.c(293): warning C4244: 'function' : conversion from 'int64_t' to 'lua_Integer', possible loss of data
+     1>Done Building Project "C:\Users\ChenYe\documents\visual studio 2010\Projects\pb\pb\pb.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

@@ -1,0 +1,19 @@
+import "DItemBlood.proto";
+
+//item信息
+message DItem {
+	optional int32 sn = 1;				//SN
+	optional int32 num = 2;				//数量
+	optional int32 bind = 3;			//绑定状态
+	optional int32 type = 4;			//类型
+	optional int64 itemId = 5;			//物品Id
+	optional int32 position = 6;			//物品在容器的位置
+	repeated int32 rubySn= 7;			//宝石sn
+	optional string strthPropPlus = 8;		//强化属性  
+	optional int32 strthLevel = 9;			//强化等级
+	optional int32 strthPerfectPct = 10;		//强化完美度 
+	optional string refinePropPlus = 11;		//洗练属性
+	optional string param = 12;			//扩展属性
+	optional int32 combat = 13;			//战斗力
+	optional DItemBlood itemBlood = 14;		//命体item属性
+}

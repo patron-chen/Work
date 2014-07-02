@@ -1,0 +1,12 @@
+import "DSkill.proto";
+
+//琛€鑴夐亾鍏?
+message DItemBlood {
+	optional int32  posPutOn = 1;			//绌跨潃浣嶇疆0,1,2
+	optional string guardProp = 2;			//鍛戒綋灞炴€?
+	repeated DSkill guardSkill = 3;			//鍛戒綋鎶€鑳?
+	optional string humanProp = 4;			//鏈綋灞炴€?
+	optional string domainProp = 5;			//棰嗗煙灞炴€?
+	optional int32  bloodStoneTotal = 6;		//璇ヨ鑴夐亾鍏峰垎瑙ｅ悗鑳借幏寰楃殑琛€绮剧煶
+	optional int32 bloodStoneStrengthen = 7;	//璇ヨ鑴夐亾鍏峰己鍖栧凡缁忔秷鑰楃殑琛€绮剧煶
+}

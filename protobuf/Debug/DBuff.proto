@@ -1,0 +1,5 @@
+//Buff基本信息
+message DBuff {
+	optional int32 sn = 1;			//Buff sn
+	optional int32 timeLeft = 2;		//剩余时间
+}

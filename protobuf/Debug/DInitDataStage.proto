@@ -1,0 +1,9 @@
+import "DVector2.proto";
+
+//地图信息
+message DInitDataStage {
+	required DVector2 posNow = 5;			//初始坐标
+	required int64 id = 1;				//地图真实ID
+	required int32 sn = 2;				//地图配置SN
+	optional int32 instanceSn = 3;			//副本Sn（如果是副本，会有此属性）
+}

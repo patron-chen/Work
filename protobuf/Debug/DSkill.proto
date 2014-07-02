@@ -1,0 +1,7 @@
+//技能信息
+message DSkill {
+	optional int32 sequence = 1;		//技能序号
+	optional int32 skillSn = 2;		//技能sn
+	optional int32 skillLevel = 3;		//技能等级
+	optional int32 canUpgrade = 4;		//是否能够学习，0 不能学习 1 可以学习
+}

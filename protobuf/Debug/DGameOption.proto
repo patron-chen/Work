@@ -1,0 +1,21 @@
+//娓告垙璁剧疆
+message DGameOption {
+	required EGameOpitonKey key = 1;	//璁剧疆KEY
+	required string val = 2;		//璁剧疆鍊?
+}
+
+//娓告垙璁剧疆绫诲瀷 ID涓€鏃︿娇鐢ㄥ氨涓嶈兘鍐嶆洿鏀?
+enum EGameOpitonKey {
+	//1-100 绯荤粺閰嶇疆
+	game = 1;
+	//101-200 鎸傛満閰嶇疆
+	fightAuto = 101;
+	//201-220 濂藉弸閰嶇疆
+	
+	//221-240 缁勯槦閰嶇疆
+
+	//401-500 鍏朵粬閰嶇疆
+	test1 = 401;		//娴嬭瘯
+	test2 = 402;		//娴嬭瘯
+	test3 = 403;		//娴嬭瘯
+}

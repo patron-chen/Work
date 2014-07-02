@@ -1,0 +1,5 @@
+//鍧愭爣淇℃伅
+message DVector2 {
+	optional float x = 1;				//妯潗鏍?
+	optional float y = 2;				//绾靛潗鏍?
+}

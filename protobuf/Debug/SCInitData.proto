@@ -1,0 +1,27 @@
+import "DHuman.proto";
+import "DInitDataStage.proto";
+import "DItem.proto";
+import "DBuff.proto";
+import "DSkill.proto";
+import "DInitDataGame.proto";
+import "DPartnerInfo.proto";
+import "DGameOption.proto";
+import "DWelfare.proto";
+
+
+//返回登录时应该获取的数据
+message SCInitData {
+//	option (msgid) = 1101;
+	optional DHuman human = 1;				//玩家基本信息
+	optional DInitDataStage stage = 2;			//地图信息
+	repeated DItem itemBag = 3;				//背包信息
+	repeated DItem itemBody = 4;				//装备信息
+	repeated DBuff buff = 5;				//Buff信息
+	repeated DSkill skill = 6;				//技能面板信息
+	optional DInitDataGame game = 7;			//游戏系统全局信息
+	optional DPartnerInfo partnerInfo = 8;			//出战魂将信息
+	repeated DGameOption gameOption = 9;			//玩家游戏设置
+	optional DWelfare welfare = 10;				//福利信息
+	optional string clientParams = 11;			//前台需要的游戏参数
+	optional int32 instanceAuto = 12;			//是否在副本扫荡中，这个只需要登录时发一次就行
+}

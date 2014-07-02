@@ -1,0 +1,7 @@
+import "test2.proto";
+
+message Test1{
+
+	repeated Test2 test2 = 1;
+	optional int32 id = 2;
+}

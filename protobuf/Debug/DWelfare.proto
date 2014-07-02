@@ -1,0 +1,12 @@
+import "DWelfareOnline.proto";
+import "DWelfareOffline.proto";
+import "DWelfareLogin.proto";
+import "DWelfareInstance.proto";
+
+//鐜╁棰嗗彇鍦ㄧ嚎绂忓埄
+message DWelfare {
+	optional DWelfareOnline welfareOnline = 1;	//鍦ㄧ嚎濂栧姳淇℃伅
+	optional DWelfareOffline welfareOffline = 2;	//绂荤嚎濂栧姳淇℃伅
+	optional DWelfareLogin welfareLogin = 3;	//鐧婚檰濂栧姳淇℃伅
+	repeated DWelfareInstance welfareInstance = 4;	//鍓湰琛ュ伩淇℃伅
+}

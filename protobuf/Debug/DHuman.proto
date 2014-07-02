@@ -1,0 +1,54 @@
+import "DProp.proto";
+
+
+//玩家信息 传递给玩家本人的 此信息比较多 不要进行群发
+message DHuman {
+	optional int64 id		= 1;		//角色ID
+	optional DProp prop		= 2;		//属性
+	optional string name		= 3;		//昵称
+	optional int32 profession	= 4;		//职业
+	optional int32 level		= 5;		//等级
+	optional int32 sex		= 6;		//性别
+	optional int32 itemBagNumMax	= 8;		//背包总格子数量
+	optional int32 itemBagNumBase	= 10;		//解锁的背包格子数量
+	optional int32 itemStoreNumMax	= 11;		//仓库大小
+	optional int32 itemStoreNumBase = 12;		//仓库解锁格子数量
+	optional int64 gold		= 13;		//元宝数量
+	optional int64 goldGift		= 14;		//绑定元宝数量
+	optional int64 coin		= 15;		//铜币数量
+	optional int64 coinGift		= 16;		//绑定铜币数量
+	optional int32 timeSecOnline	= 17; 		//在线总时长(秒)
+	optional int64 expCur		= 18;		//当前经验
+	optional int64 expUpgrade	= 19;		//当前等级升级所需总经验
+	optional int32 thinkingMagicSn	= 20;		//当前心法修炼SN
+	optional int32 power		= 21;		//真气
+	optional int32 guardHpCur	= 22;			//血脉星座当前血量
+	optional int32 guardHpMax	= 23;			//血脉星座最大血量
+	optional int32 guardEnergyCur	= 24;			//血脉星座当前能量
+	optional int32 guardEnergyMax	= 25;			//血脉星座最大能量
+	optional int32 guardStatus	= 26;			//血脉星座变身状态，0是人形，1是变身
+	optional int32 guardType	= 27;			//血脉星座类型
+	optional int32 guardPoint	= 28;			//血脉星座升级消耗的血精石总量
+	optional int32 hpCur		= 30;		//当前生命
+	optional int32 mpCur		= 31;		//当前法力
+	optional int32 titleSn		= 32;		//称号
+	optional bool  escort		= 34;		//护送状态
+	optional int32 escortProp	= 35;		//护送品质
+	optional int32 evilPoint	= 38;		//罪恶值
+	optional bool inFighting	= 39;		//是否在战斗状态
+	optional int32 equipWeaponSn		= 40;		//武器
+	optional int32 equipClothesSn		= 41;		//衣服
+	optional int32 equipWeaponStrthLevel = 42;	//武器强化等级
+	optional int64 unionId		= 43;		//军团Id
+	optional string unionName	= 44;		//军团名称
+	optional string pvpMode		= 45;		//pvp模式
+	optional int64 teamId	        = 46;		//队伍ID
+	optional int64 countryId        = 47;		//阵营ID
+	optional bool canMove		= 48;		//是否可以移动
+	optional bool canCastSkill      = 49;		//是否可以施法
+	optional bool canAttack		= 50;		//是否可以有各种动作
+	optional int32 pathFindingFlag  = 51;		//玩家的寻路掩码，根据不同的值就能够通过不同的阻挡
+	optional int32 pvpDiWoId	= 52;		//pvp模式敌我组id
+	optional int32 pegasusSn = 53;						//当前坐骑
+	optional int32 pegasusRideState = 54;			//当前骑乘状态
+}

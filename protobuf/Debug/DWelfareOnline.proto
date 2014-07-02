@@ -1,0 +1,8 @@
+//鍦ㄧ嚎濂栧姳淇℃伅
+message DWelfareOnline {
+	optional bool finished = 1;			//浠婂ぉ鍦ㄧ嚎濂栧姳棰嗗畬娌★紝濡傛灉宸茬粡缁撴潫锛屽悗闈㈠嚑椤逛篃灏变笉瀛樺湪
+	optional int32 second = 2;			//涓嬫棰嗗鍓╀綑鏃堕棿
+	optional int32 itemBind = 3;			//鎺ヤ笅鏉ュ鍔辨槸鍚︾粦瀹氱姸鎬?
+	optional int32 itemSn = 4;			//鎺ヤ笅鏉ュ鍔眘n
+	optional int32 itemNum = 5;			//鎺ヤ笅鏉ュ鍔辨暟閲?
+}

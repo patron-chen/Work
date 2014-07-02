@@ -1,0 +1,7 @@
+//鍓湰琛ュ伩淇℃伅
+message DWelfareInstance {
+	optional int32 instanceSn = 1;			//鍓湰sn
+	optional int32 count = 2;			//鍙鍔辩殑鍓湰娆℃暟
+	optional int32 exp = 3;				//鍙互棰嗗彇鐨勭粡楠?
+	optional int32 goldNeed = 4;			//鍏冨疂棰嗗彇闇€瑕佺殑鍏冨疂鏁伴噺
+}

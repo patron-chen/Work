@@ -1,0 +1,9 @@
+//榄傚皢鎶€鑳?
+message DPartnerSkill {
+	optional int32 pos = 1;			//鎶€鑳戒綅缃?
+	optional int32 sn = 2;			//鎶€鑳藉崱id
+	optional int32 level = 3;		//鎶€鑳界瓑绾?
+	optional int32 expCur = 4;
+	optional int32 expUpgrade = 5;
+	optional int32 expAll = 6;
+}

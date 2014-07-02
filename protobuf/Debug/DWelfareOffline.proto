@@ -1,0 +1,6 @@
+//绂荤嚎濂栧姳淇℃伅
+message DWelfareOffline {
+	optional int32 hour = 1;			//绱绂荤嚎澶氬皯鍒嗛挓鐨勭粡楠屼簡锛屽墠绔浆鍖栦负x灏忔椂x鍒嗛挓
+	optional int32 exp = 2;				//绂荤嚎鏃堕棿鍙互棰嗗彇鐨勭粡楠?
+	optional int32 goldNeed = 3;			//鍏冨疂棰嗗彇闇€瑕佺殑鍏冨疂鏁伴噺
+}
